@@ -83,7 +83,7 @@ $_SESSION['csrf_token'] = $token;
 <div id="main-content" class="main-content-area">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-sm-12 aligncenter">
+            <div class="col-lg-4 col-md-6 col-sm-12 aligncenter">
                 <div class="log">
                     <h6 class="log-title">register</h6>
                     <div class="log-content">

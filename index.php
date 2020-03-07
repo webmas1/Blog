@@ -177,7 +177,7 @@ $_SESSION['csrf_token'] = $token;
             </div>
 
             <!-- /.sidebar-area -->
-            <div class="col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2">
+            <div class="order-lg-last col-md-4 order-md-last col-md-offset-0 col-sm-8 col-sm-offset-2 order-first">
                 <div class="sidebar-area fix">
                     <div class="single-sidebar-widget">
                         <h6 class="widget-title">Write new post</h6>

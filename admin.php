@@ -37,7 +37,7 @@ if (isset($_GET['approve'])){
                 <div class="posts-area">
                     <h2 class="section-title">manage users</h2>
                     <div class="row">
-                        <div class="col-md-8 col-sm-12 aligncenter">
+                        <div class="col-md-12 col-sm-12 aligncenter">
                             <?php if (isset($users)): ?>
                                 <div class="table-responsive">
                                     <table class="table users-table">

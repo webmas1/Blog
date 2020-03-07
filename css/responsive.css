@@ -74,6 +74,28 @@
     .contact-form-area .submit-btn button {
         margin-left: 35px;
     }
+    .post-content {
+        margin: 0 0 20px;
+    }
+    .post-info {
+        margin-top: 10px;
+        bottom: 10px;
+        left: 30%;
+    }
+    .post-info .avatar {
+        left: 10px;
+    }
+    /*
+    .post-info .author {
+        position: static;
+    }
+
+    .post-info .author,
+    .post-info .created,
+    .post-info small {
+        display: block;
+    }
+*/
 }
 
 /* Tablet desktop :768px. */
@@ -94,7 +116,7 @@
         text-align: center;
     }
     .main-menu ul.main-nav {
-        padding: 0 0 20px;
+        /*        padding: 0 0 20px;*/
         text-align: center;
     }
     .navbar-right {
@@ -172,13 +194,37 @@
     .contact-address p {
         text-align: center;
     }
+    .sidebar-content.write-post input[type="text"],
+    .sidebar-content.write-post textarea {
+        width: 100%;
+    }
+    .post-content {
+        margin: 0 0 30px;
+    }
+    .post-info {
+        margin: 0;
+        left: 5%;
+    }
+    .post-info .avatar {
+        bottom: 5px;
+        left: 10px;
+    }
+    .post-info .author {
+        position: static;
+    }
+    .post-info .author,
+    .post-info .created,
+    .post-info small {
+        display: block;
+    }
 }
 
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
     .container {
-        width: 90%
+        width: 90%;
+        padding: 0;
     }
     .header-top .col-xs-6 {
         width: 100%;
@@ -224,6 +270,9 @@
     }
     .single-sidebar-widget {
         margin: 0 0 40px;
+    }
+    .sidebar-content {
+        padding: 0 15px 15px;
     }
     .sidebar-content.about-me {
         padding: 0 13px 50px;
@@ -390,6 +439,13 @@
     }
     .personal-content label[for="personal-avatar"] .avatar {
         position: static;
+    }
+    .main-content-area {
+        padding: 20px;
+    }
+    .sidebar-content.write-post input[type="text"],
+    .sidebar-content.write-post textarea {
+        width: 100%;
     }
 }
 
